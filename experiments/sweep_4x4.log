@@ -1,0 +1,14 @@
+Ising 4x4  N=16  configs=65536
+Prior delta1:  MF=26.9954  BP=0.9371
+
+Pre-computing Exact-DF and MCMC references (3 seeds, S=5000) ...
+
+Running Algorithm 1 (S=K sweep)  n_seeds=3
+    K=S        Uni D1         MF D1         BP D1        LBP D1    time
+   1000        8.2714       16.4566        6.9490        1.8030      1s   starved:[0, 0, 0, 0]
+   5000        4.0529       17.2698        7.1608        0.5251     18s   starved:[0, 0, 0, 0]
+  20000        3.2205       15.7449        2.8368        0.3413    293s   starved:[0, 0, 0, 0]
+
+Total: 4.9 min
+Figure saved -> alg1_sk_sweep_4x4.png
+Table saved  -> alg1_sk_sweep_4x4.csv

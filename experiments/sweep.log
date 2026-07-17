@@ -1,0 +1,16 @@
+Ising 3x3  N=9  configs=512
+Prior delta1:  MF=10.2128  BP=0.1970
+
+Pre-computing Exact-DF and MCMC references (3 seeds, S=5000) ...
+
+Running Algorithm 1 (S=K sweep)  n_seeds=3
+    K=S        Uni D1         MF D1         BP D1        LBP D1    time
+    100        5.0169        8.2920        2.4531        2.1086      0s
+    500        3.1304        7.3249        3.8638        1.0984      0s
+   2000        0.8420        5.2191        2.1044        0.6479      3s
+  10000        0.6116        2.6643        0.7989        0.2278      6s
+  50000        0.1290        2.8421        0.1933        0.0910     24s
+
+Total: 0.4 min
+Figure saved -> alg1_sk_sweep_corrected.png
+Table saved  -> alg1_sk_sweep_corrected.csv

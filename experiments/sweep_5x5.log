@@ -1,0 +1,14 @@
+Ising 5x5  N=25  configs=33554432  ref=ExactReference (66s)
+Prior delta1:  MF=7.6770  BP=0.9912
+
+Pre-computing Exact-DF and MCMC references (3 seeds, S=5000) ...
+
+Running Algorithm 1 (S=K sweep)  n_seeds=3
+    K=S        Uni D1         MF D1         BP D1        LBP D1    time
+   1000        3.0475        5.2293        3.1482        0.4658      2s   starved:[0, 0, 0, 0]
+   5000        3.4495        4.4165        2.7998        0.3156     33s   starved:[0, 0, 0, 0]
+  20000        1.9185        4.7726        1.6210        0.1234    674s   starved:[0, 0, 0, 0]
+
+Total: 11.2 min
+Figure saved -> alg1_sk_sweep_5x5.png
+Table saved  -> alg1_sk_sweep_5x5.csv
