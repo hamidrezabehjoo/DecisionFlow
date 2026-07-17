@@ -2,8 +2,7 @@
 
 Exact sequential sampling from an Ising Gibbs distribution
 `p(σ) ∝ exp(-E(σ))` via the Decision Flow (DF) correction of a proposal
-prior (paper: *Decision Flow: A Discrete Schrödinger Bridge for Exact
-Sequential Sampling*, Behjoo, Chertkov & Ahn).
+prior (paper: *Decision Flow*, Behjoo, Chertkov & Ahn).
 
 This package consolidates and supersedes the legacy scripts
 (`alg1_sample.py`, `alg1_sweep.py`, `alg1_sweep_with_lbp.py`,
